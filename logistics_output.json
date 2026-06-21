@@ -1,0 +1,152 @@
+{
+  "project": "AI Logistics Command Center & Marketing Predictor",
+  "version": "1.0.0",
+  "author": "Martina Dohnalová | AI Vibecoder",
+  "shipments": [
+    {
+      "shipment": {
+        "tracking_number": "ZAS-2024-001",
+        "carrier": "Zásilkovna",
+        "raw_status": "zasilkovna_received",
+        "hours_in_transit": 14,
+        "hours_stored_in_box": 0,
+        "customer_location": "Brno-Slatina"
+      },
+      "analysis": {
+        "standardized_status": "In Transit",
+        "delivery_risk": "low",
+        "region": "Jihomoravský kraj",
+        "gps_coordinates": {
+          "lat": 49.1833,
+          "lon": 16.7167
+        },
+        "proactive_support_action": "Standardní průběh — zásilka přijata na depu, doručení očekáváno do 24 h. Aktivně sledovat tracking.",
+        "marketing_trigger": "Pre-delivery product recommendation"
+      }
+    },
+    {
+      "shipment": {
+        "tracking_number": "PPL-2024-002",
+        "carrier": "PPL",
+        "raw_status": "ppl_damaged_at_depo",
+        "hours_in_transit": 48,
+        "hours_stored_in_box": 0,
+        "customer_location": "Liberec v podještědí"
+      },
+      "analysis": {
+        "standardized_status": "Damaged",
+        "delivery_risk": "high",
+        "region": "Liberecký kraj",
+        "gps_coordinates": {
+          "lat": 50.7663,
+          "lon": 15.0543
+        },
+        "proactive_support_action": "URGENTNÍ: Okamžitě zabalit náhradní kus a připravit prioritní zásilku. Informovat zákazníka do 2 h s omluvou a novým tracking číslem.",
+        "marketing_trigger": "Apology Voucher"
+      }
+    },
+    {
+      "shipment": {
+        "tracking_number": "DHL-2024-003",
+        "carrier": "DHL",
+        "raw_status": "dhl_delivered_ok",
+        "hours_in_transit": 36,
+        "hours_stored_in_box": 0,
+        "customer_location": "Praha 4 - Chodov"
+      },
+      "analysis": {
+        "standardized_status": "Delivered",
+        "delivery_risk": "low",
+        "region": "Praha",
+        "gps_coordinates": {
+          "lat": 50.0233,
+          "lon": 14.4747
+        },
+        "proactive_support_action": "Žádná akce nutná — zásilka úspěšně doručena zákazníkovi v termínu.",
+        "marketing_trigger": "Review & Cross-sell request"
+      }
+    },
+    {
+      "shipment": {
+        "tracking_number": "ZAS-2024-004",
+        "carrier": "Zásilkovna",
+        "raw_status": "zasilkovna_unclaimed_warning",
+        "hours_in_transit": 72,
+        "hours_stored_in_box": 54,
+        "customer_location": "Ostrava-Poruba"
+      },
+      "analysis": {
+        "standardized_status": "Warning - Unclaimed",
+        "delivery_risk": "high",
+        "region": "Moravskoslezský kraj",
+        "gps_coordinates": {
+          "lat": 49.8277,
+          "lon": 18.1547
+        },
+        "proactive_support_action": "Zásilka v Z-Boxu přes 54 h — hrozí automatická vratka do 15 h. Okamžitě kontaktovat zákazníka telefonicky, nabídnout přesměrování na jiný box.",
+        "marketing_trigger": "Urgent SMS with gift coupon"
+      }
+    },
+    {
+      "shipment": {
+        "tracking_number": "CP-2024-005",
+        "carrier": "Česká Pošta",
+        "raw_status": "cp_stored_at_post_office",
+        "hours_in_transit": 120,
+        "hours_stored_in_box": 0,
+        "customer_location": "Děčín 2"
+      },
+      "analysis": {
+        "standardized_status": "Warning - Unclaimed",
+        "delivery_risk": "medium",
+        "region": "Ústecký kraj",
+        "gps_coordinates": {
+          "lat": 50.7727,
+          "lon": 14.2131
+        },
+        "proactive_support_action": "Zásilka uložena na poště 120 h — odeslat e-mailovou upomínku s termínem vyzvednutí. Zvážit prodloužení úložní doby přes přepravce.",
+        "marketing_trigger": "Urgent SMS with gift coupon"
+      }
+    }
+  ],
+  "bi_statistics": {
+    "total_shipments": 5,
+    "status_breakdown": {
+      "In Transit": 1,
+      "Damaged": 1,
+      "Delivered": 1,
+      "Warning - Unclaimed": 2
+    },
+    "damaged_shipments": 1,
+    "high_risk_shipments": 2,
+    "top_regions": [
+      {
+        "region": "Jihomoravský kraj",
+        "shipment_count": 1
+      },
+      {
+        "region": "Liberecký kraj",
+        "shipment_count": 1
+      },
+      {
+        "region": "Praha",
+        "shipment_count": 1
+      },
+      {
+        "region": "Moravskoslezský kraj",
+        "shipment_count": 1
+      },
+      {
+        "region": "Ústecký kraj",
+        "shipment_count": 1
+      }
+    ],
+    "avg_transit_hours_by_carrier": {
+      "Zásilkovna": 43.0,
+      "PPL": 48.0,
+      "DHL": 36.0,
+      "Česká Pošta": 120.0
+    },
+    "generated_at": "2026-06-20T12:54:54.391842"
+  }
+}

@@ -1,0 +1,6 @@
+Tracking Number,Carrier,Standardized Status,Region,Delivery Risk,Support Action,Marketing Trigger
+ZAS-2024-001,Zásilkovna,In Transit,Jihomoravský kraj,low,"Standardní průběh — zásilka přijata na depu, doručení očekáváno do 24 h. Aktivně sledovat tracking.",Pre-delivery product recommendation
+PPL-2024-002,PPL,Damaged,Liberecký kraj,high,URGENTNÍ: Okamžitě zabalit náhradní kus a připravit prioritní zásilku. Informovat zákazníka do 2 h s omluvou a novým tracking číslem.,Apology Voucher
+DHL-2024-003,DHL,Delivered,Praha,low,Žádná akce nutná — zásilka úspěšně doručena zákazníkovi v termínu.,Review & Cross-sell request
+ZAS-2024-004,Zásilkovna,Warning - Unclaimed,Moravskoslezský kraj,high,"Zásilka v Z-Boxu přes 54 h — hrozí automatická vratka do 15 h. Okamžitě kontaktovat zákazníka telefonicky, nabídnout přesměrování na jiný box.",Urgent SMS with gift coupon
+CP-2024-005,Česká Pošta,Warning - Unclaimed,Ústecký kraj,medium,Zásilka uložena na poště 120 h — odeslat e-mailovou upomínku s termínem vyzvednutí. Zvážit prodloužení úložní doby přes přepravce.,Urgent SMS with gift coupon

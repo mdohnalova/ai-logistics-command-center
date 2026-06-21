@@ -1,0 +1,6 @@
+tracking_number,carrier,raw_status,hours_in_transit,hours_stored_in_box,customer_location
+ZAS-2024-001,Zásilkovna,zasilkovna_received,14,0,Brno-Slatina
+PPL-2024-002,PPL,ppl_damaged_at_depo,48,0,Liberec v podještědí
+DHL-2024-003,DHL,dhl_delivered_ok,36,0,Praha 4 - Chodov
+ZAS-2024-004,Zásilkovna,zasilkovna_unclaimed_warning,72,54,Ostrava-Poruba
+CP-2024-005,Česká Pošta,cp_stored_at_post_office,120,0,Děčín 2
