@@ -8,8 +8,7 @@
 
 👉 **Live Production App:** [https://ai-logistics-command-center-7pl2ctmvivxpmldjafhh3x.streamlit.app/](https://ai-logistics-command-center-7pl2ctmvivxpmldjafhh3x.streamlit.app/)
 
-> **A real-time data engineering pipeline and interactive management dashboard designed for modern supply chain operations.**  
-> Automatically extracts messy shipment logs, executes complex data cleansing/transformations (ETL), isolates delivery anomalies, and serves a live dispatches command center for operations managers.
+> **A real-time data engineering pipeline and interactive management dashboard designed for modern supply chain operations.** > Automatically extracts messy shipment logs, executes complex data cleansing/transformations (ETL), isolates delivery anomalies, and serves a live dispatches command center for operations managers.
 
 ---
 
@@ -129,6 +128,7 @@ ai-logistics-command-center/
 │
 ├── clean.py                    # ETL pipeline (Extraction, Transformation, Cleansing)
 ├── logistics_app.py            # Streamlit Interactive Control Dashboard Web UI
+├── logistics_command_center.py # Core logical modules and helper functions for data handling
 ├── requirements.txt            # Python dependencies configuration
 │
 ├── shipments_input.csv         # Raw incoming carrier logs database
@@ -144,8 +144,7 @@ ai-logistics-command-center/
 ### 1. Local Installation
 Clone the repository and deploy the required data-science packages into your environment:
 ```bash
-git clone git clone https://github.com/mdohnalova/ai-logistics-command-center.git
-(https://github.com/mdohnalova/ai-logistics-command-center.git)
+git clone [https://github.com/mdohnalova/ai-logistics-command-center.git](https://github.com/mdohnalova/ai-logistics-command-center.git)
 cd ai-logistics-command-center
 pip install -r requirements.txt
 
@@ -183,9 +182,7 @@ streamlit run logistics_app.py
 
 ## 👩‍💻 Author
 
-**Martina Dohnalová**
-
-AI Automation & Data Engineer
+**Martina Dohnalová** AI Automation & Data Engineer
 
 🌐 [Live App Production](https://ai-logistics-command-center-7pl2ctmvivxpmldjafhh3x.streamlit.app/)
 
@@ -194,3 +191,6 @@ AI Automation & Data Engineer
 ```
 
 ---
+
+
+```
