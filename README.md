@@ -144,7 +144,7 @@ ai-logistics-command-center/
 ### 1. Local Installation
 Clone the repository and deploy the required data-science packages into your environment:
 ```bash
-git clone [https://github.com/mdohnnalova/ai-logistics-command-center.git](https://github.com/mdohnnalova/ai-logistics-command-center.git)
+git clone [https://github.com/mdohnalova/ai-logistics-command-center.git](https://github.com/mdohnalova/ai-logistics-command-center.git)
 cd ai-logistics-command-center
 pip install -r requirements.txt
 
