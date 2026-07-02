@@ -1,0 +1,14 @@
+# Tajné klíče a lokální konfigurace — nikdy nesmí skončit v repozitáři
+.env
+.env.*
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
